@@ -17,7 +17,7 @@ public class InventoryControl implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initializing InventoryControl...");
 
         try {
             ModConfig.INSTANCE = ModConfigManager.load(ModConfig.INSTANCE, ModConfig.class);
